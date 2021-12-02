@@ -1,4 +1,4 @@
-direction, magnitude = [], [], []
+direction, magnitude = [], []
 horiz, depth1, depth2, aim = 0, 0, 0, 0
 
 with open('../data/day2.txt', 'r') as txt:
