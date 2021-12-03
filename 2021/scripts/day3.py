@@ -1,5 +1,4 @@
 import math
-
 items = []
 
 with open('../data/day3.txt', 'r') as txt:
@@ -26,29 +25,34 @@ for i in range(0, len(digits)):
 # answer part 1
 print(int(gamma, 2) * int(epsilon, 2))
 
+# begin part 2
 def partTwo(items, type):
     newItems, oldItems = [], items
     for i in range(0, 12):
+        # recalculate the most common value and name it 'standard'
         newGamma = buildAverages(oldItems)
         standard = math.floor(float((newGamma[i])/(len(oldItems)/2)))
+        # go through each remaining item, checking against standard
         for item in oldItems:
-            if type == 'positive':
+            # if oxygen, conform to standard, if co2 go against standard
+            if type == 'oxygen':
                 if int(item[i]) == standard:
                     newItems.append(item)
             else:
                 if int(item[i]) != standard:
                     newItems.append(item)
+        # use newItems as the oldItems for the next iteration
         oldItems = newItems
+        # if only one left, return answer
         if len(newItems) == 1:
-            return newItems[0]
+            return newItems[0].strip("\n")
+        # else, continue iterating
         else:
             newItems = []
 
-# gather answers from method
-o = partTwo(items, 'positive')
-c = partTwo(items, 'negative')
-# remove \n and convert to decimal
-o = int(o.strip("\n"), 2)
-c = int(c.strip("\n"), 2)
+# run the partTwo method and convert binary to decimal
+o = int(partTwo(items, 'oxygen'), 2)
+c = int(partTwo(items, 'co2'), 2)
+
 # answer part 2
 print(o * c)
