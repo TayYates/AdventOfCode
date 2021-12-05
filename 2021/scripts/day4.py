@@ -22,22 +22,21 @@ for i in range(0, len(items), 6):
     df = pd.DataFrame(data, columns = ['0', '1', '2', '3', '4'])
     bingoCards.append(df)
 
-# check for a bingo
+# check for a bingo (max will be 50,000 if there are 5 10,000s in a row)
 def checkCard(card):
-    if max(card.sum(axis=1)) == 5000:
+    if max(card.sum(axis=1)) == 50000:
         return True
-    elif max(card.sum(axis=0)) == 5000:
+    elif max(card.sum(axis=0)) == 50000:
         return True
 
 # for each pull, try each card
 for pull in pulls:
     for bingoCard in bingoCards:
-        # replace hits with 1000
-        bingoCard.replace(pull, 1000, inplace=True)
+        # replace hits with 10,000
+        bingoCard.replace(pull, 10000, inplace=True)
         # check if it won
         if checkCard(bingoCard):
             # answers are first and last values in this printout
-            print(f"{(bingoCard.values.sum()-8000)*pull} on pull {pull}")
-            print(bingoCard)
+            print(f"{(bingoCard.values.sum()%10000)*pull} on pull {pull}")
             # kill the card by setting values to -1 so that it can't win again
             bingoCard[bingoCard > -1] = -1
