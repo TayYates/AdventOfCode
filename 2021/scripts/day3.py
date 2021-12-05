@@ -5,6 +5,7 @@ with open('../data/day3.txt', 'r') as txt:
     for line in txt:
         items.append(line)
 
+# begin part 1
 def buildAverages(items):
     digits = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
     for item in items:
