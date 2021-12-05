@@ -5,7 +5,7 @@ def runTest(part):
     # build 1,000 x 1,000 array of 0s
     seaFloor = np.zeros((1000,1000), dtype=int)
 
-    # transform each line into a list of points [minX, minY, maxX, maxY], store these in commands
+    # transform each line into a list of points, store these in commands
     commands = []
     with open('../data/day5.txt', 'r') as txt:
         for line in txt:
@@ -29,7 +29,7 @@ def runTest(part):
         elif Xmin == Xmax:
             # +1 onto grid from Ymin to Ymax
             seaFloor[Ymin:(Ymax+1), Xmin] += 1
-        # if diagonal. Only run for part2 answer
+        # if diagonal. Only run for part2
         elif part == 'part 2':
             # build variables for magnitude and direction
             deltaX = command[2] - command[0]
