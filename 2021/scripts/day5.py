@@ -18,16 +18,16 @@ def runTest(part):
             ]
             commands.append(command)
 
-    # for each command list
     for command in commands:
+        # for each command list, establish min and max for X and Y
         Xmin, Ymin, Xmax, Ymax = min(command[0], command[2]), min(command[1], command[3]), max(command[0], command[2]), max(command[1], command[3])
         # if Y is constant
         if Ymin == Ymax:
-            # +1 onto grid while crawling from minX to maxX
+            # +1 onto grid from Xmin to Xmax
             seaFloor[Ymin, Xmin:(Xmax+1)] += 1
         # if X is constant
         elif Xmin == Xmax:
-            # repeat for minY to maxY
+            # +1 onto grid from Ymin to Ymax
             seaFloor[Ymin:(Ymax+1), Xmin] += 1
         # if diagonal. Only run for part2 answer
         elif part == 'part 2':
