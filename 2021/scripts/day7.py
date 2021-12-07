@@ -16,7 +16,7 @@ print(fuelUsed)
 ##########################
 # part 2
 # the purpose of this is just to be a ridiculously high number to be replaced asap
-oldFuelUsed = 999999999999
+bestFuelUsed = 999999999999
 # brute force for all possible medians
 for i in range(1, max(crabPositions)):
     newFuelUsed = 0
@@ -25,7 +25,7 @@ for i in range(1, max(crabPositions)):
         nthTriangle = ((abs(i - crab))*(abs(i - crab) + 1))/2
         newFuelUsed += nthTriangle
     # always keep the most efficient run
-    if newFuelUsed < oldFuelUsed:
-        oldFuelUsed = newFuelUsed
+    if newFuelUsed < bestFuelUsed:
+        bestFuelUsed = newFuelUsed
 # answer
-print(oldFuelUsed)
+print(bestFuelUsed)
