@@ -18,7 +18,7 @@ print(fuelUsed)
 # the purpose of this is just to be a ridiculously high number to be replaced asap
 oldFuelUsed = 999999999999
 # brute force for all possible medians
-for i in range(1, len(crabPositions)):
+for i in range(1, max(crabPositions)):
     newFuelUsed = 0
     for crab in crabPositions:
         # this is the addition version of n!, it's written as ((n)*(n+1))/2
