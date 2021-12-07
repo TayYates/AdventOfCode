@@ -15,7 +15,8 @@ print(fuelUsed)
 
 ##########################
 # part 2
-oldFuelUsed = 1000000000
+# the purpose of this is just to be a ridiculously high number to be replaced asap
+oldFuelUsed = 999999999999
 # brute force for all possible medians
 for i in range(1, len(crabPositions)):
     newFuelUsed = 0
