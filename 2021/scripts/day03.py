@@ -1,7 +1,7 @@
 import math
 items = []
 
-with open('../data/day3.txt', 'r') as txt:
+with open('../data/day03.txt', 'r') as txt:
     for line in txt:
         items.append(line)
 

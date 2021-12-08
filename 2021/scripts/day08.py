@@ -1,12 +1,13 @@
 # 10 unique patterns, 0-9
 items = []
-with open('../data/day8.txt', 'r') as txt:
+with open('../data/day08.txt', 'r') as txt:
+# with open('../data/day08sample.txt', 'r') as txt:
     for line in txt:
         items.append(line)
 
-
 #######################
 # part 1
+
 digitCounter = 0
 # brute force, sum all strings that aren't 5 or 6 characters long
 for item in items:

@@ -7,7 +7,7 @@ def runTest(part):
 
     # transform each line into a list of points, store these in commands
     commands = []
-    with open('../data/day5.txt', 'r') as txt:
+    with open('../data/day05.txt', 'r') as txt:
         for line in txt:
             line = re.split(',| -> ', line.strip())
             command = [

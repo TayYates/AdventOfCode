@@ -1,5 +1,5 @@
 depths = []
-with open('../data/day1.txt', 'r') as txt:
+with open('../data/day01.txt', 'r') as txt:
     for line in txt:
         depths.append(int(line))
 

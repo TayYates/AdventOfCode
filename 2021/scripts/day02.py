@@ -1,7 +1,7 @@
 direction, magnitude = [], []
 horiz, depth1, depth2, aim = 0, 0, 0, 0
 
-with open('../data/day2.txt', 'r') as txt:
+with open('../data/day02.txt', 'r') as txt:
     for line in txt:
         line = line.strip("\n")
         direction.append(line.split(" ")[0])
