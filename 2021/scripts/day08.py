@@ -23,7 +23,7 @@ print(digitCounter)
 # part 2
 
 # counts number of identical chars in two strings, agnostic of their positions
-def intersect(i, masterKey):
+def overlap(i, masterKey):
     value = 0
     for char in i:
         if char in masterKey:
@@ -53,17 +53,17 @@ def buildDigits(input, output):
 
         # len(5) and len(6) require a conditional based on how '1' and '4' are wired
         elif len(i) == 5:
-            if intersect(i,one) == 2:
+            if overlap(i,one) == 2:
                 digits += '3'
-            elif intersect(i,four) == 2:
+            elif overlap(i,four) == 2:
                 digits += '2'
             else:
                 digits += '5'
 
         elif len(i) == 6:
-            if intersect(i,four) == 4:
+            if overlap(i,four) == 4:
                 digits += '9'
-            elif intersect(i,one) == 2:
+            elif overlap(i,one) == 2:
                 digits += '0'
             else:
                 digits += '6'
