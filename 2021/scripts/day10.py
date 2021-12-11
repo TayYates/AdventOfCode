@@ -25,12 +25,12 @@ for line in lines:
         elif char in closers and char in closers[openers.index(runner[-1])]:
             runner.pop()
         else:
-            # if the closer doesn't match the opener, add the score to the running total
+            # if the closer doesn't match the opener, add the score to the score1 total
             score1 += scores1[char]
             badLine = True
             break
     if badLine == False:
-        # go through the runner list, popping items and adding to the score until you've run through them all
+        # go through the runner list, popping items and adding to score2 until you've run through them all
         while len(runner) > 0:
             score2 *= 5
             score2 += scores2[runner[-1]]
