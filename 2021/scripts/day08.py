@@ -40,8 +40,9 @@ def buildDigits(input, output):
             one = i
         elif len(i) == 4:
             four = i
-    # establish the answer for each len(i) using basic logic
+    # establish the answer for each len(i) using logic
     for i in output:
+        # these first three are just counting the length of the string
         if len(i) == 2:
             digits += '1'
 
@@ -51,7 +52,7 @@ def buildDigits(input, output):
         elif len(i) == 4:
             digits += '4'
 
-        # len(5) and len(6) require a conditional based on how '1' and '4' are wired
+        # len(5) and len(6) require a conditional based on how one and four are wired
         elif len(i) == 5:
             if overlap(i,one) == 2:
                 digits += '3'
@@ -59,7 +60,7 @@ def buildDigits(input, output):
                 digits += '2'
             else:
                 digits += '5'
-
+        # same conditional, with a different value for the overlap with four
         elif len(i) == 6:
             if overlap(i,four) == 4:
                 digits += '9'
