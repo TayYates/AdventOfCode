@@ -21,11 +21,11 @@ for line in lines:
         # if it's an opener, add it to runner
         if char in openers:
             runner.append(char)
-        # when a closer appears, if the closer matches the most recent opener, annihilate that opener
-        elif char in closers and char in closers[openers.index(runner[-1])]:
+        # if a closer matches the most recent opener, annihilate that opener
+        elif char in closers[openers.index(runner[-1])]:
             runner.pop()
         else:
-            # if the closer doesn't match the opener, add the score to the score1 total
+            # if the closer doesn't match the opener, add the score to the score1 total and break to the next line
             score1 += scores1[char]
             badLine = True
             break
