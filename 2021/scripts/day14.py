@@ -15,7 +15,7 @@ with open('../data/day14.txt', 'r') as file:
                 polymerCounts[items[1]] = 0
             else:
                 ogPolymer = list(line.strip('\n'))
-            # I know this isn't clean but I need the original polymer for part 2 from before part 1 extended it
+            # I know this isn't clean but I need the original polymer for part 2
             oldPolymer = ogPolymer
 
 #########################
@@ -65,12 +65,12 @@ def buildDict(oldPairCounts, formulas):
         # establish the number of pairs, and the letter they will create
         oldCount = oldPairCounts[pair]
         newLetter = formulas[pair]
-        # add oldCount to the new pairs this new letter will create
+        # add oldCount to the new pairs that the new letter will create
         newPairCounts[pair[0] + newLetter] = newPairCounts.get(pair[0] + newLetter, 0) + oldCount
         newPairCounts[newLetter + pair[1]] = newPairCounts.get(newLetter + pair[1], 0) + oldCount
     return newPairCounts
 
-# run buildDict the appropriate number of time to build a dictionary of pair counts
+# run buildDict the appropriate number of times to build a dictionary of pair counts
 for i in range(0, 40):
     newPairCounts = buildDict(oldPairCounts, formulas)
     oldPairCounts = newPairCounts
