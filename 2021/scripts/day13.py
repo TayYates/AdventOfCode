@@ -39,17 +39,17 @@ def folder(dotMap, fold):
     # fold horizontally if x, vertically if y
     if direction == 'x':
         # take the section and flip it
-        b = dotMap[(location+1):,:]
-        b = np.flipud(b)
+        flippedSection = dotMap[(location+1):,:]
+        flippedSection = np.flipud(flippedSection)
         # add that selection back on the mirrored image
-        dotMap[(2*location - len(dotMap)+1):location,:] += b
+        dotMap[(2*location - len(dotMap)+1):location,:] += flippedSection
         dotMap = dotMap[:location,:]
     elif direction == 'y':
         # take the section and flip it
-        b = dotMap[:,(location+1):]
-        b = np.fliplr(b)
+        flippedSection = dotMap[:,(location+1):]
+        flippedSection = np.fliplr(flippedSection)
         # add that selection back on the mirrored image
-        dotMap[:,(2*location-len(dotMap[0])+1):location] += b
+        dotMap[:,(2*location-len(dotMap[0])+1):location] += flippedSection
         dotMap = dotMap[:,:location]
 
     return dotMap
