@@ -1,5 +1,4 @@
 import numpy as np
-from numpy.core.getlimits import _discovered_machar
 
 #########################
 # data prep
