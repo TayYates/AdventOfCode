@@ -1,4 +1,4 @@
-All times are milliseconds from a 2020 M1 Mac
+All times are hot runs in milliseconds on a 2020 M1 Mac.
 
 Disclaimer: I am much more familiar with Python than either Go or Rust
 
@@ -7,7 +7,13 @@ Day 1: parse text to integers, sort list, print max
   - rust: .010
   - py: .065
 
-  - go compile: .17 user .13 sys
-  - rust compile: .19 user .06 sys
+  - go compile: .138
+  - rust compile: .193
 
-Day 2:
+Day 2: for loop over a list, accessing dictionary values
+  - go: .012
+  - rust: .013
+  - py: .059
+
+  - go compile: .139
+  - rust compile: .201
