@@ -1,0 +1,26 @@
+year,day,go,rust,python,goCompile,rustCompile,goLOC,rustLOC,pythonLOC,description
+2022,01,0.011,0.010,0.065,0.138,0.193,30,21,10,parse text to integers, sort list, print max
+2022,02,0.012,0.013,0.059,0.139,0.201,43,38,35,for loop over a list, accessing dictionary values
+2022,03,0.010,.010,0.053,0.149,.183,asdf,asdf,asdf,string manipulation, for loops, char -> ascii translation
+2022,04
+2022,05
+2022,06
+2022,07
+2022,08
+2022,09
+2022,10
+2022,11
+2022,12
+2022,13
+2022,14
+2022,15
+2022,16
+2022,17
+2022,18
+2022,19
+2022,20
+2022,21
+2022,22
+2022,23
+2022,24
+2022,25
