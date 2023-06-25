@@ -1,26 +1,26 @@
 year,day,go,rust,python,goCompile,rustCompile,goLOC,rustLOC,pythonLOC,description
 2022,01,0.011,0.010,0.065,0.138,0.193,30,21,10,parse text to integers, sort list, print max
 2022,02,0.012,0.013,0.059,0.139,0.201,43,38,35,for loop over a list, accessing dictionary values
-2022,03,0.010,.010,0.053,0.149,.183,asdf,asdf,asdf,string manipulation, for loops, char -> ascii translation
-2022,04
-2022,05
-2022,06
-2022,07
-2022,08
-2022,09
-2022,10
-2022,11
-2022,12
-2022,13
-2022,14
-2022,15
-2022,16
-2022,17
-2022,18
-2022,19
-2022,20
-2022,21
-2022,22
-2022,23
-2022,24
-2022,25
+2022,03,0.010,0.010,0.053,0.149,0.183,58,46,30,string manipulation, for loops, char -> ascii translation
+2022,04,0.011,0.022,0.066,0.064,2.470,as,as,as,regex and if/and/or logic. Started using cargo instead of rustc for rust
+2022,05,asdff,asdff,asdff,asdff,asdff,as,as,as,asdf
+2022,06,asdff,asdff,asdff,asdff,asdff,as,as,as,asdf
+2022,07,asdff,asdff,asdff,asdff,asdff,as,as,as,asdf
+2022,08,asdff,asdff,asdff,asdff,asdff,as,as,as,asdf
+2022,09,asdff,asdff,asdff,asdff,asdff,as,as,as,asdf
+2022,10,asdff,asdff,asdff,asdff,asdff,as,as,as,asdf
+2022,11,asdff,asdff,asdff,asdff,asdff,as,as,as,asdf
+2022,12,asdff,asdff,asdff,asdff,asdff,as,as,as,asdf
+2022,13,asdff,asdff,asdff,asdff,asdff,as,as,as,asdf
+2022,14,asdff,asdff,asdff,asdff,asdff,as,as,as,asdf
+2022,15,asdff,asdff,asdff,asdff,asdff,as,as,as,asdf
+2022,16,
+2022,17,
+2022,18,
+2022,19,
+2022,20,
+2022,21,
+2022,22,
+2022,23,
+2022,24,
+2022,25,
