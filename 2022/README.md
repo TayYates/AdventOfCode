@@ -13,17 +13,18 @@ Day 2: for loop over a list, accessing dictionary values
 Day 3: string manipulation, for loops, char -> ascii translation
 - Simple vanilla Python, being able to easily split a string in half was very handy, and ASCII values made the prompt much easier to handle
 - Golang felt needlessly verbose on this one, especially the for loops, but I still appreciated being able to split strings and use ASCII in a way that felt natural
-- As frustrating as Rust's static typing was, the compiler is incredible, and usually had very good suggestions to fix my simple mistakes. Sometimes I was guessing with datatypes, but as long as it compiled and ran, I was happy with my choice even if it used extra bits of memory
+- As frustrating as Rust's static typing was, the compiler is incredible, and usually had very good suggestions to fix my simple mistakes. Sometimes I was guessing with datatypes, but as long as it compiled and ran, I was happy
 
-- Overall, still impressed with the runtimes for Golang/Rust, but irritated with how verbose they are
+- Overall, I'm still impressed with the runtimes for Golang/Rust, but irritated with my own lack of experience with them
 ***
 Day 4: regex and if/and/or logic
-- In Python I skipped the regex by splitting the strings by '-', but it created an ugly situation where I had to convert everything to an int while using it. Definitely not optimal, I would rewrite it with regex in the same way I wrote the Go/Rust if it were going into production
+- In Python I skipped the regex by splitting the strings by '-', but it created an ugly situation where I had to convert everything to an int while using it. Definitely not optimal, I would rewrite this with regex and a separate section of casting the results as integers if it were going into production
 - Golang and Rust were extremely similar here. Using regex and converting everything to integers meant that I could write very clean logic statements that were easy to walk through. This was helpful because the logic was the part that required brainpower
+- I stopped compiling rust with rustc and instead started using cargo. This was necessary because of the regex, but I'm glad that I moved over
 ***
 Day 5: parsing text into stacks, vector manipulation
 - Python's list comprehensions and list-of-lists functionality made this very easy. The only pain point here was building the initial state of the crates. I did it in a very non-pythonic way and brute forced it to work. Also, there was a technical issue with how Python stores list items in memory; because it was a list-of-lists, I had to use deepcopy to keep them separate, otherwise the two parts would overwrite one another in memory
-- Golang was a pain for this one. Datatype errors, difficulty appending to the front of an array, difficulty dealing with an array of arrays, etc. This one was irritating, but satisfying once I finally got it
-- I have the same complaints about Rust as I just mentioned with Go, but because I wrote this after the Go, I had already worked out most of those kinks. My big complaint here is how difficult it is to modify a vector of vectors. It was very frustrating to know that there was a reverse() function that did not work with my data type. In order to make it work, I would have to completely rewrite how I had parsed the input data. So instead, I used tmp variables to store that data and then appended my stacks to that tmp variable.
+- Golang was a pain for this one. Datatype errors, difficulty appending to the front of an array, difficulty dealing with an array of arrays, etc. This one was irritating, but very satisfying once I finally got it
+- I have the same complaints about Rust that I just mentioned with Go, but because I wrote this after the Go, I had already worked out most of those kinks. My big complaint here is how difficult it is to modify a vector of vectors. It was very frustrating to know that there was a reverse() function that did not work with my data type. In order to make it work, I would've had to completely rewrite how I had parsed the input data. So instead, I used tmp variables to store that data and then appended my stacks to that tmp variable.
 
-- I'm sure that there are much better ways to solve this in both Go and Rust, but I had a lot of difficulty with the static typing and not being able to intuitively use built-in functions because they were datatype specific
+- I'm sure that there are much better ways to solve this in both Go and Rust, but I had a lot of difficulty with the static typing and not being able to intuitively use built-in functions because they were datatype specific. Getting better with them, but I'm definitely still suffering from a lack of experience
