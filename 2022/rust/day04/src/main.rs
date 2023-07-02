@@ -10,6 +10,7 @@ fn main() {
     let mut score2 = 0;
 
     for line in my_string.lines() {
+        // i'm sure this is brutally inefficient. Golang ran it twice as fast
         let caps = re.captures(line).unwrap();
         let a = caps.get(1).unwrap().as_str().parse::<i32>().unwrap();
         let b = caps.get(2).unwrap().as_str().parse::<i32>().unwrap();
