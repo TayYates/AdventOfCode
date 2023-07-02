@@ -2,8 +2,8 @@ year,day,go,rust,python,goCompile,rustCompile,goLOC,rustLOC,pythonLOC,descriptio
 2022,01,0.011,0.010,0.065,0.138,0.193,30,21,10,parse text to integers, sort list, print max
 2022,02,0.012,0.013,0.059,0.139,0.201,43,38,35,for loop over a list, accessing dictionary values
 2022,03,0.010,0.010,0.053,0.149,0.183,58,46,30,string manipulation, for loops, char -> ascii translation
-2022,04,0.011,0.022,0.066,0.064,2.470,as,as,as,regex and if/and/or logic. Started using cargo instead of rustc for rust
-2022,05,asdff,asdff,asdff,asdff,asdff,as,as,as,asdf
+2022,04,0.011,0.022,0.066,0.064,2.470,32,27,19,regex and if/and/or logic. Started using cargo instead of rustc for rust
+2022,05,0.011,asdff,0.057,0.155,asdff,as,as,as,parsing text into stacks, stack manipulation
 2022,06,asdff,asdff,asdff,asdff,asdff,as,as,as,asdf
 2022,07,asdff,asdff,asdff,asdff,asdff,as,as,as,asdf
 2022,08,asdff,asdff,asdff,asdff,asdff,as,as,as,asdf
