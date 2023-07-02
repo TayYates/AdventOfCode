@@ -1,4 +1,7 @@
 Disclaimer: I am a Python developer who had zero experience with Golang or Rust going into this. I'm learning as I go; but if you're copying my work, just know that my Go/Rust are not going to be optimal and I probably write them with a Python accent.
+
+Most of these were solved first in Python, then in Go, and finally in Rust
+
 ***
 Day 1: parse text to integers, sort list, print max
   - Python's list comprehensions and built in max() and sorted() methods made this one a cakewalk.
