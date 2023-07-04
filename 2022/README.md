@@ -37,3 +37,11 @@ Day 6: read a string one character at a time, identifying unique sets
 - The Go solution was easy after I figured out how to use a map to simulate Python sets. Having to make my own function to emulate this was easy enough, but I wish I could get the 'unique' package to work instead
 - Rust was surprisingly inefficient in this task. I think it has something to do with having to rebuild new HashSets for every iteration; either that or the nested for loops because I couldn't index the string. Still faster than Python though
 ***
+Day 7: directory walk simulator, storing cumulative values
+- Vanilla Python to the rescue. No packages needed, just 1 list, 1 dict, and a few for loops
+- Golang made this easy enough. I still had access to a lot of similar tools that i'm used to, albeit with some extra verbosity to account for the static typing
+- Rust did not feel great to use for this problem. I still find it frustrating when the functions that intuitively should work, for some reason do not work for my particular data types. Trying to manipulate vectors in Rust feels like an invocation of Murphy's Law
+
+- I decided to skip Rust on this one out of frustration, but hopefully I'll come back after I've learned more about the language
+***
+Day 8: 
