@@ -44,8 +44,11 @@ Day 7: directory walk simulator, storing cumulative values
 
 - I decided to skip Rust on this one out of frustration, but hopefully I'll come back after I've learned more about the language
 ***
-Day 8: 
+Day 8: modified local peaks problem
 - I fought Python's numpy for a while trying to do this in a brute force way, but finally ended up solving it like a rubix cube; one side at a time, flipping it 90 degrees each time. Having access to numpy makes something like this approachable, when otherwise it would be daunting
 ***
-Day 9:
+Day 9: simulate a rope
 - Python made this simple enough. The nested for loops were painful to write, but they work and < 1 second is good enough for a game. Might come back later and see if I can do some matrix math to speed it up
+***
+Day 10: simulate reading simple machine code and refreshing a screen
+- Vanilla Python continues to make these approachable and enjoyable

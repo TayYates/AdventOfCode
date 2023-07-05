@@ -6,9 +6,9 @@ year,day,go,rust,python,goCompile,rustCompile,goLOC,rustLOC,pythonLOC,descriptio
 2022,05,0.011,0.015,0.057,0.155,0.407,71,57,47,parsing text into stacks, vector manipulation
 2022,06,0.011,0.043,0.062,0.148,0.267,40,31,10,iterate over string, identify location of unique set
 2022,07,0.012,DNF__,0.060,0.147,DNF__,42,NA,20,directory walk simulator, storing cumulative values
-2022,08,asdff,asdff,0.930,asdff,asdff,NA,NA,NA,modified local peaks problem
-2022,09,asdff,asdff,0.437,asdff,asdff,NA,NA,NA,simulate a rope
-2022,10,asdff,asdff,asdff,asdff,asdff,NA,NA,NA,asdf
+2022,08,asdff,asdff,0.930,asdff,asdff,NA,NA,19,modified local peaks problem
+2022,09,asdff,asdff,0.437,asdff,asdff,NA,NA,57,simulate a rope
+2022,10,asdff,asdff,0.057,asdff,asdff,NA,NA,NA,simulate reading simple machine code and refreshing a screen
 2022,11,asdff,asdff,asdff,asdff,asdff,NA,NA,NA,asdf
 2022,12,asdff,asdff,asdff,asdff,asdff,NA,NA,NA,asdf
 2022,13,asdff,asdff,asdff,asdff,asdff,NA,NA,NA,asdf
