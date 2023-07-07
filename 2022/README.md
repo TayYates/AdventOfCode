@@ -52,3 +52,7 @@ Day 9: simulate a rope
 ***
 Day 10: simulate reading simple machine code and refreshing a screen
 - Vanilla Python continues to make these approachable and enjoyable
+***
+Day 11: parse text, perform logic operations, and use modulo to avoid integer overflow
+- Regex to the rescue! Python's dictionaries were a very convenient way to parse the input into a usable format, similar to other nosql schemas but with built in functionality. Part 2 was very interesting, because at first I tried to brute force the 10,000 and just come back in 5 minutes, but then realised that it wasn't ever going to finish because not even a long is big enough to prevent variable overflow. After a bit of googling, I worked out that the simplest LCD was just to multiply them all together. This ensured that any one item didn't have a panic value larger than 10million. A big O of n^3 feels brutal, but n=10,020 was a small enough dataset to keep the whole script under 1 second anyway.
+***

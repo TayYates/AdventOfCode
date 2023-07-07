@@ -9,7 +9,7 @@ year,day,go,rust,python,goCompile,rustCompile,goLOC,rustLOC,pythonLOC,descriptio
 2022,08,asdff,asdff,0.930,asdff,asdff,NA,NA,19,modified local peaks problem
 2022,09,asdff,asdff,0.437,asdff,asdff,NA,NA,57,simulate a rope
 2022,10,asdff,asdff,0.057,asdff,asdff,NA,NA,NA,simulate reading simple machine code and refreshing a screen
-2022,11,asdff,asdff,asdff,asdff,asdff,NA,NA,NA,asdf
+2022,11,asdff,asdff,0.636,asdff,asdff,NA,NA,NA,parse text, perform logic operations, and use modulo to avoid integer overflow
 2022,12,asdff,asdff,asdff,asdff,asdff,NA,NA,NA,asdf
 2022,13,asdff,asdff,asdff,asdff,asdff,NA,NA,NA,asdf
 2022,14,asdff,asdff,asdff,asdff,asdff,NA,NA,NA,asdf

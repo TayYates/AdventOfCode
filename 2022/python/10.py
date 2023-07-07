@@ -8,14 +8,16 @@ strengths = [1]
 signal = 1
 
 for command in commands:
-  if abs(signal%40 - (len(strengths)-1)%40) <= 1:
-    screen[len(strengths)-1] = '#'
-  strengths.append(signal*len(strengths))
+  clock = len(strengths)
+  if abs(signal%40 - (clock-1)%40) <= 1:
+    screen[clock-1] = '#'
+  strengths.append(signal*clock)
   
   if "add" in command:
-    if abs(signal%40 - (len(strengths)-1)%40) <= 1:
-      screen[len(strengths)-1] = '#'
-    strengths.append(signal*len(strengths))
+    clock = len(strengths)
+    if abs(signal%40 - (clock-1)%40) <= 1:
+      screen[clock-1] = '#'
+    strengths.append(signal*clock)
     signal += int(command.split()[1])
 
 ans1 = strengths[20] + strengths[60] + strengths[100] + strengths[140] + strengths[180] + strengths[220]
