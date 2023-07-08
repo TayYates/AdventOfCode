@@ -5,12 +5,12 @@ text = open("../data/11.txt").read().split("\n\n")
 
 # this is our monkey schema
 monkeys = {i: {
-  "items": [], # list
-  "ops": [],   # list
-  "divBy": [], # int
-  "tThrow": [],# int
-  "fThrow": [],# int
-  "score": 0   # int
+  "items":  [], # list
+  "ops":    [], # list
+  "divBy":  [], # int
+  "tThrow": [], # int
+  "fThrow": [], # int
+  "score":   0  # int
 } for i in range(len(text))}
 
 # build the initial state using regex
@@ -19,9 +19,9 @@ reTest = re.compile('Monkey (\d+):\n  Starting items: ([0-9, ]+)\n  Operation: n
 for item in text:
   m = list(re.findall(reTest, item)[0])
   index = int(m[0])
-  monkeys[index]["items"] = [int(v) for v in m[1].split(", ")]
-  monkeys[index]["ops"] = m[2].split()
-  monkeys[index]["divBy"] = int(m[3])
+  monkeys[index]["items"]  = [int(v) for v in m[1].split(", ")]
+  monkeys[index]["ops"]    = m[2].split()
+  monkeys[index]["divBy"]  = int(m[3])
   monkeys[index]["tThrow"] = int(m[4])
   monkeys[index]["fThrow"] = int(m[5])
   #print(monkeys[index].values())
@@ -61,12 +61,12 @@ print(scores[-1]*scores[-2])
 for item in text:
   m = list(re.findall(reTest, item)[0])
   index = int(m[0])
-  monkeys[index]["items"] = [int(v) for v in m[1].split(", ")]
-  monkeys[index]["ops"] = m[2].split()
-  monkeys[index]["divBy"] = int(m[3])
+  monkeys[index]["items"]  = [int(v) for v in m[1].split(", ")]
+  monkeys[index]["ops"]    = m[2].split()
+  monkeys[index]["divBy"]  = int(m[3])
   monkeys[index]["tThrow"] = int(m[4])
   monkeys[index]["fThrow"] = int(m[5])
-  monkeys[index]["score"] = 0
+  monkeys[index]["score"]  = 0
   #print(monkeys[index].values())
 
 # build the least common denominator between all 8 monkeys' test numbers
