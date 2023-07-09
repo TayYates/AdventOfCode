@@ -59,3 +59,5 @@ Day 11: parse text, perform logic operations, and use modulo to avoid integer ov
 Day 12: shortest path through maze
 - Work smart, not hard. If there's a difficult task, Python probably has a package that makes it easier. After I built the logic for node/edge relationships, networkx came in very handy to get an actual answer.
 ***
+Day 13: if/and/or logic with recursion and edge cases
+- I worked with a few packages but ended up sticking with the vanilla option. ast, itertools, etc seemed to have useful tools but none of them were quite right. After I wrote the main logic block, the summation required me to go back to the beginning and turn the input data from a list to a dictionary.

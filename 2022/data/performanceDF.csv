@@ -10,8 +10,8 @@ year,day,go,rust,python,goCompile,rustCompile,goLOC,rustLOC,pythonLOC,descriptio
 2022,09,asdff,asdff,0.437,asdff,asdff,NA,NA,57,simulate a rope
 2022,10,asdff,asdff,0.057,asdff,asdff,NA,NA,24,simulate reading simple machine code and refreshing a screen
 2022,11,asdff,asdff,0.636,asdff,asdff,NA,NA,93,parse text, perform logic operations, and use modulo to avoid integer overflow
-2022,12,asdff,asdff,0.150,asdff,asdff,NA,NA,NA,shortest path through maze
-2022,13,asdff,asdff,asdff,asdff,asdff,NA,NA,NA,asdf
+2022,12,asdff,asdff,0.150,asdff,asdff,NA,NA,36,shortest path through maze
+2022,13,asdff,asdff,0.077,asdff,asdff,NA,NA,NA,if/and/or logic with recursion
 2022,14,asdff,asdff,asdff,asdff,asdff,NA,NA,NA,asdf
 2022,15,asdff,asdff,asdff,asdff,asdff,NA,NA,NA,asdf
 2022,16,
