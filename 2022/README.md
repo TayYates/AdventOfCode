@@ -61,3 +61,5 @@ Day 12: shortest path through maze
 ***
 Day 13: if/and/or logic with recursion and edge cases
 - I worked with a few packages but ended up sticking with the vanilla option. ast, itertools, etc seemed to have useful tools but none of them were quite right. After I wrote the main logic block, the summation required me to go back to the beginning and turn the input data from a list to a dictionary.
+***
+Day 14: 

@@ -1,26 +1,26 @@
 year,day,go,rust,python,goCompile,rustCompile,goLOC,rustLOC,pythonLOC,description
-2022,01,0.011,0.010,0.065,0.138,0.193,30,21,10,parse text to integers, sort list, print max
-2022,02,0.012,0.013,0.059,0.139,0.201,43,38,35,for loop over a list, accessing dictionary values
-2022,03,0.010,0.010,0.053,0.149,0.183,58,46,30,string manipulation, for loops, char -> ascii translation
+2022,01,0.011,0.010,0.065,0.138,0.193,30,21,10,parse text to integers | sort list | print max
+2022,02,0.012,0.013,0.059,0.139,0.201,43,38,35,for loop over a list accessing dictionary values
+2022,03,0.010,0.010,0.053,0.149,0.183,58,46,30,string manipulation | for loops | char -> ascii translation
 2022,04,0.011,0.022,0.066,0.064,2.470,32,27,19,regex and if/and/or logic. Started using cargo instead of rustc for rust
-2022,05,0.011,0.015,0.057,0.155,0.407,71,57,47,parsing text into stacks, vector manipulation
-2022,06,0.011,0.043,0.062,0.148,0.267,40,31,10,iterate over string, identify location of unique set
-2022,07,0.012,DNF__,0.060,0.147,DNF__,42,NA,20,directory walk simulator, storing cumulative values
-2022,08,asdff,asdff,0.930,asdff,asdff,NA,NA,19,modified local peaks problem
-2022,09,asdff,asdff,0.437,asdff,asdff,NA,NA,57,simulate a rope
-2022,10,asdff,asdff,0.057,asdff,asdff,NA,NA,24,simulate reading simple machine code and refreshing a screen
-2022,11,asdff,asdff,0.636,asdff,asdff,NA,NA,93,parse text, perform logic operations, and use modulo to avoid integer overflow
-2022,12,asdff,asdff,0.150,asdff,asdff,NA,NA,36,shortest path through maze
-2022,13,asdff,asdff,0.077,asdff,asdff,NA,NA,NA,if/and/or logic with recursion
-2022,14,asdff,asdff,asdff,asdff,asdff,NA,NA,NA,asdf
-2022,15,asdff,asdff,asdff,asdff,asdff,NA,NA,NA,asdf
-2022,16,
-2022,17,
-2022,18,
-2022,19,
-2022,20,
-2022,21,
-2022,22,
-2022,23,
-2022,24,
-2022,25,
+2022,05,0.011,0.015,0.057,0.155,0.407,71,57,47,parsing text into stacks | vector manipulation
+2022,06,0.011,0.043,0.062,0.148,0.267,40,31,10,iterate over string | identify location of unique set
+2022,07,0.012,DNF__,0.060,0.147,DNF__,42,NA,20,directory walk simulator | storing cumulative values
+2022,08,DNF__,DNF__,0.930,DNF__,DNF__,NA,NA,19,modified local peaks problem
+2022,09,DNF__,DNF__,0.437,DNF__,DNF__,NA,NA,57,simulate a rope
+2022,10,DNF__,DNF__,0.057,DNF__,DNF__,NA,NA,24,simulate reading simple machine code and refreshing a screen
+2022,11,DNF__,DNF__,0.636,DNF__,DNF__,NA,NA,93,parse text | perform logic operations | use modulo to avoid integer overflow
+2022,12,DNF__,DNF__,0.150,DNF__,DNF__,NA,NA,36,shortest path through maze
+2022,13,DNF__,DNF__,0.077,DNF__,DNF__,NA,NA,33,if/and/or logic with recursion and edge cases
+2022,14,DNF__,DNF__,DNF__,DNF__,DNF__,NA,NA,NA,
+2022,15,DNF__,DNF__,DNF__,DNF__,DNF__,NA,NA,NA,
+2022,16,DNF__,DNF__,DNF__,DNF__,DNF__,NA,NA,NA,
+2022,17,DNF__,DNF__,DNF__,DNF__,DNF__,NA,NA,NA,
+2022,18,DNF__,DNF__,DNF__,DNF__,DNF__,NA,NA,NA,
+2022,19,DNF__,DNF__,DNF__,DNF__,DNF__,NA,NA,NA,
+2022,20,DNF__,DNF__,DNF__,DNF__,DNF__,NA,NA,NA,
+2022,21,DNF__,DNF__,DNF__,DNF__,DNF__,NA,NA,NA,
+2022,22,DNF__,DNF__,DNF__,DNF__,DNF__,NA,NA,NA,
+2022,23,DNF__,DNF__,DNF__,DNF__,DNF__,NA,NA,NA,
+2022,24,DNF__,DNF__,DNF__,DNF__,DNF__,NA,NA,NA,
+2022,25,DNF__,DNF__,DNF__,DNF__,DNF__,NA,NA,NA,

@@ -20,7 +20,7 @@ def compare(left, right):
     
   if len(left) < len(right): return True
   elif len(left) > len(right): return False
-  else: return None
+  return
 
 rightOrd = 0
 for k, v in pairs.items():
