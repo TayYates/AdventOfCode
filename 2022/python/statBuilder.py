@@ -10,8 +10,8 @@ def buildGraphs(year: int):
   df['go'] = df['go'].astype(float)*1000
   df['rust'] = df['rust'].astype(float)*1000
   df['python'] = df['python'].astype(float)*1000
-  df['goCompile'] = df['goCompile'].astype(float)
-  df['rustCompile'] = df['rustCompile'].astype(float)
+  df['goCompile'] = df['goCompile'].astype(float)*1000
+  df['rustCompile'] = df['rustCompile'].astype(float)*1000
 
   # speeds graph
   plt.figure(dpi = 300)
@@ -49,7 +49,7 @@ def buildGraphs(year: int):
   plt.plot(df['day'], df['rustCompile'], label='rust')
   plt.title("Compiler speeds for Advent of Code 2022")
   plt.xlabel('Day')
-  plt.ylabel('Time to Compile (seconds)')
+  plt.ylabel('Time to Compile (milliseconds)')
   plt.legend()
   plt.savefig(f"../{year}_compilerSpeed.png", bbox_inches='tight')
 

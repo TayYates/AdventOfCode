@@ -62,4 +62,5 @@ Day 12: shortest path through maze
 Day 13: if/and/or logic with recursion and edge cases
 - I worked with a few packages but ended up sticking with the vanilla option. ast, itertools, etc seemed to have useful tools but none of them were quite right. After I wrote the main logic block, the summation required me to go back to the beginning and turn the input data from a list to a dictionary.
 ***
-Day 14: 
+Day 14: simple physical simulation, numpy array manipulation
+- I'm not exactly proud of this Python implementation. It's very slow and inefficient, but it works. And for this use case, 3-4 seconds isn't a huge deal in terms of speed. I'm going to enjoy coming back with the compiled languages and making a much faster solution with them
