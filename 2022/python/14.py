@@ -88,7 +88,7 @@ for i in range(27000):
     elif caveMap[currPos[0]+1, currPos[1]+1] == 0 and currPos[0] < ceiling:
       currPos[0], currPos[1] = currPos[0]+1, currPos[1]+1
       
-    # if you get here *and* you're blocked, you've hit your resting place. Update the caveMap with currPos and break the whileTrue        
+    # if you get here, you've hit your resting place. Update the caveMap with currPos and break the whileTrue        
     else:
       caveMap[currPos[0], currPos[1]] = 2
       break
