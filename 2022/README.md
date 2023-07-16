@@ -73,4 +73,4 @@ Day 16:
 ***
 Day 17: Tetris! and pattern recognition 
 - Python: 5107ms
--- Part 1 was rather straightforward when following the rules exactly so. Part 2 however, required a bit of optimization. 1 trillion lines is a lot, and it's bound to turn into a repeating pattern at some point, taking your 1 trillion and turning it into a smaller, more approachable task. At 5 seconds this might not be the most optimized script, but it was the most straightforward and readable way I could think of getting the answer
+- Part 1 was rather straightforward when following the rules exactly so. Part 2 however, required a bit of optimization. 1 trillion lines is a lot, and it's bound to turn into a repeating pattern at some point, taking your 1 trillion and turning it into a smaller, more approachable task. At 5 seconds this might not be the most optimized script, but it was the most straightforward and readable way I could think of getting the answer
