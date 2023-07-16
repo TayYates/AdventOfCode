@@ -67,3 +67,10 @@ Day 14: simple physics simulation via numpy array manipulation
 ***
 Day 15: geometry, math, no brute force allowed
 - Goodness, that one was tough. Part 1 was easy enough to brute force because it was just one line and it ran in about 1.5 seconds, but part 2 would have been 16 trillion operations! I tried to optimize by working just with the perimeters, but that ended up taking 1.5 minutes just to collect the 89 million edges, much less test them. I eventually gave up on trying to force it, and drew it out on paper. After a bit of googling and drawing, I figured out that the secret was the same concept as "just the edges" but even further, just the intersections. After consulting the internet for intersection math, and treating each "radius" like 4 lines, I was able to drop that 89 million down to a little over 3,000. Even at a very heavy n^2, 3,000 was perfectly fast.
+***
+Day 16: 
+- Had to skip
+***
+Day 17: Tetris! and pattern recognition 
+- Python: 5107ms
+-- Part 1 was rather straightforward when following the rules exactly so. Part 2 however, required a bit of optimization. 1 trillion lines is a lot, and it's bound to turn into a repeating pattern at some point, taking your 1 trillion and turning it into a smaller, more approachable task. At 5 seconds this might not be the most optimized script, but it was the most straightforward and readable way I could think of getting the answer
