@@ -16,9 +16,9 @@ def buildGraphs(year: int):
   # speeds graph
   plt.figure(dpi = 300)
   plt.yscale('log')
-  plt.plot(df['day'], df['python'], label='python')
   plt.plot(df['day'], df['go'], label='golang')
   plt.plot(df['day'], df['rust'], label='rust')
+  plt.plot(df['day'], df['python'], label='python')
   plt.title("Performance of select languages for Advent of Code 2022")
   plt.xlabel('Day')
   plt.ylabel('Runtime (milliseconds)')

@@ -17,7 +17,7 @@ Day 2: for loop over a list, accessing dictionary values
   - Python: 59ms
   - Go: 12ms
   - Rust: 13ms
-    - Honestly, this one was simple enough that I didn't notice any meaningful differences between writing the 3. Python called it a dictionary, Golang called it a map of strings/ints, and Rust called it a HashMap, but they all worked in the same way. I'm still impressed with the performance of Go and Rust, given that the syntax for each was so similar and the Python runtime was so much slower.
+  - Honestly, this one was simple enough that I didn't notice any meaningful differences between writing the 3. Python called it a dictionary, Golang called it a map of strings/ints, and Rust called it a HashMap, but they all worked in the same way. I'm still impressed with the performance of Go and Rust, given that the syntax for each was so similar and the Python runtime was so much slower.
 ***
 Day 3: string manipulation, for loops, char -> ascii translation.
   - Python: 53ms
@@ -105,3 +105,6 @@ Day 17: Tetris! and pattern recognition
   - Python: 5107ms
     - Part 1 was rather straightforward when following the rules exactly so. Part 2 however, required a bit of optimization. 1 trillion lines is a lot, and it's bound to turn into a repeating pattern at some point, taking your 1 trillion and turning it into a smaller, more approachable task. At 5 seconds this might not be the most optimized script, but it was the most straightforward and readable way I could think of getting the answer
 ***
+Day 18: Surface area modeling
+  - Python: 227ms
+    - I continue to be very grateful for all of the wonderful libraries that are available in Python. Not only is Numpy an ideal resource for any of these grid based problems, but it's also easy to google what you want to do, followed by the word Python, and find either the official documentation or someone else using something that does exactly what you were asking for. This community makes the language such a joy to work with, even though performance wise it's less than optimal
