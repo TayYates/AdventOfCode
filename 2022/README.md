@@ -108,3 +108,11 @@ Day 17: Tetris! and pattern recognition
 Day 18: Surface area modeling
   - Python: 227ms
     - I continue to be very grateful for all of the wonderful libraries that are available in Python. Not only is Numpy an ideal resource for any of these grid based problems, but it's also easy to google what you want to do, followed by the word Python, and find either the official documentation or someone else using something that does exactly what you were asking for. This community makes the language such a joy to work with, even though performance wise it's less than optimal
+***
+Day 19:
+  - Python: DNF
+    - I find myself irritated with these recursion tasks where the only real choice is between BFS or DFS. Will come back to it later
+***
+Day 20: Circular linked list
+  - Python: 1720ms
+    - This one was quite fun. I did some googling on best ways to efficiently write/read from anywhere in a list, and found collections.deque to be a great fit. It was satisfying to be able to rotate the deque around my needs instead of having to worry about indexes, their quirks around negative numbers, and the slow n^2 of forcing a list to be rebuilt in memory for every iteration.
