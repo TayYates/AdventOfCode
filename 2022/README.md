@@ -115,4 +115,4 @@ Day 19:
 ***
 Day 20: Circular linked list
   - Python: 1720ms
-    - This one was quite fun. I did some googling on best ways to efficiently write/read from anywhere in a list, and found collections.deque to be a great fit. It was satisfying to be able to rotate the deque around my needs instead of having to worry about indexes, their quirks around negative numbers, and the slow n^2 of forcing a list to be rebuilt in memory for every iteration.
+    - This one was quite fun. I did some googling on ways to efficiently write/read from anywhere in a list, and found collections.deque to be a great fit. It was satisfying to be able to simply rotate a deque instead of accessing the middle of a list, having to worry about indexes with their quirks around negative numbers, and the slow n^2 of forcing a list to be rebuilt in memory for every iteration.
